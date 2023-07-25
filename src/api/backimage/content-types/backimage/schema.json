@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "backimages",
+  "info": {
+    "singularName": "backimage",
+    "pluralName": "backimages",
+    "displayName": "backimage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
